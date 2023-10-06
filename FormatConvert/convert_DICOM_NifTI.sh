@@ -19,6 +19,8 @@ for dir in "$origin_path"/*/; do
 
   # Ejecutar el comando dcm2niix para convertir las imágenes
   dcm2niix -f "$dir_name" -p y -z y -o "$final_path" "$final_path"
+  bet2 "$final_path/$dir_name"".nii.gz" "$final_path"/brain -o -m -s -e
+
 done
 
 echo "Proceso completado."
