@@ -1,4 +1,3 @@
 # no subir carpeta DICOM
-/DICOM/
-# no subir carpeta NifTI
-/NifTI/
+/dir_DICOM/
+
