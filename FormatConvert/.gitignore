@@ -1,3 +1,5 @@
 # no subir carpeta DICOM
 /dir_DICOM/
+/descargas/*
+/test_unzip/*
 
