@@ -58,8 +58,6 @@ melodicIC_path=os.path.dirname(wT1_path)+'/ICA.ica/filtered_func_data.ica/melodi
 #### parte fsleyes, aun queda evaluar.
 #--- aqui viene la parte fsleyes.
 ####
-#print('fsleyes --scene melodic --displaySpace '+melodicIC_path+' --nrows 2 --ncols 4 --movieSync '+wT1_path+' --interpolation linear '+melodicIC_path +' --cmap red-yellow --interpolation linear --displayRange '+str(tresh)+' '+str(max(max_values)))
-#os.system('fsleyes --scene melodic --displaySpace '+melodicIC_path+' --nrows 2 --ncols 4 --movieSync '+wT1_path+' --interpolation linear '+melodicIC_path +' --cmap red-yellow --interpolation linear --displayRange '+str(tresh)+' '+str(max(max_values))+' &')
 
 
 b.setText('Se ha ejecutado el proceso correctamente. \n Puede comenzar a clasificar RSNs')
